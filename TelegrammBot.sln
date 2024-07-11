@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegrammBot", "TelegrammBot\TelegrammBot.csproj", "{FD69A03B-A57C-4735-B1FA-30246ADABF86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C91677CD-DA91-4CC6-BF16-DB5351BA46F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7A2D1AD8-F9E3-4318-B25E-E85AF2754214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4D14294C-C3BF-4BEE-B2EC-C37DB0CB26AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bot", "Bot", "{E30B8083-0D2D-41AB-9134-66649B38B21A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegramm.Abstractions", "Telegramm.Abstractions\Telegramm.Abstractions.csproj", "{7CAD2F76-88F9-431E-BE14-75426DB20773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegramm.Implementations", "Telegramm.Implementations\Telegramm.Implementations.csproj", "{9BA56729-9BD9-4BB1-9B5F-F4238873E0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegrammBot.Domain", "TelegrammBot.Domain\TelegrammBot.Domain.csproj", "{282AF6EC-2D7A-41C7-9F83-CD6CEDDC0249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegrammBot.Infrastructure", "TelegrammBot.Infrastructure\TelegrammBot.Infrastructure.csproj", "{7CB24059-A221-4FE6-812E-5D3680F6288A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegrammBot.Infrastructure.Implementation", "TelegrammBot.Infrastructure.Implementation\TelegrammBot.Infrastructure.Implementation.csproj", "{9FE7DF17-1F0A-4F0A-8EC9-8C8427E8A8DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegrammBot.Infrastructure.PostgreSql", "TelegrammBot.Infrastructure.PostgreSql\TelegrammBot.Infrastructure.PostgreSql.csproj", "{E71E84D3-A92E-4EF5-B991-D82BC16B2CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegrammBot.Services", "TelegrammBot.Services\TelegrammBot.Services.csproj", "{1B1655B5-FA90-4A4E-9AD7-5A0FDF0D7B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegrammBot.Services.Abstractions", "TelegrammBot.Services.Abstractions\TelegrammBot.Services.Abstractions.csproj", "{F6B8B9D2-05CA-4F68-B974-9CB370E15DBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD69A03B-A57C-4735-B1FA-30246ADABF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD69A03B-A57C-4735-B1FA-30246ADABF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD69A03B-A57C-4735-B1FA-30246ADABF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD69A03B-A57C-4735-B1FA-30246ADABF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAD2F76-88F9-431E-BE14-75426DB20773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAD2F76-88F9-431E-BE14-75426DB20773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAD2F76-88F9-431E-BE14-75426DB20773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAD2F76-88F9-431E-BE14-75426DB20773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA56729-9BD9-4BB1-9B5F-F4238873E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA56729-9BD9-4BB1-9B5F-F4238873E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA56729-9BD9-4BB1-9B5F-F4238873E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA56729-9BD9-4BB1-9B5F-F4238873E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282AF6EC-2D7A-41C7-9F83-CD6CEDDC0249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282AF6EC-2D7A-41C7-9F83-CD6CEDDC0249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282AF6EC-2D7A-41C7-9F83-CD6CEDDC0249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282AF6EC-2D7A-41C7-9F83-CD6CEDDC0249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB24059-A221-4FE6-812E-5D3680F6288A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB24059-A221-4FE6-812E-5D3680F6288A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB24059-A221-4FE6-812E-5D3680F6288A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB24059-A221-4FE6-812E-5D3680F6288A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE7DF17-1F0A-4F0A-8EC9-8C8427E8A8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE7DF17-1F0A-4F0A-8EC9-8C8427E8A8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE7DF17-1F0A-4F0A-8EC9-8C8427E8A8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE7DF17-1F0A-4F0A-8EC9-8C8427E8A8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71E84D3-A92E-4EF5-B991-D82BC16B2CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71E84D3-A92E-4EF5-B991-D82BC16B2CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71E84D3-A92E-4EF5-B991-D82BC16B2CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71E84D3-A92E-4EF5-B991-D82BC16B2CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1655B5-FA90-4A4E-9AD7-5A0FDF0D7B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1655B5-FA90-4A4E-9AD7-5A0FDF0D7B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1655B5-FA90-4A4E-9AD7-5A0FDF0D7B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1655B5-FA90-4A4E-9AD7-5A0FDF0D7B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B8B9D2-05CA-4F68-B974-9CB370E15DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B8B9D2-05CA-4F68-B974-9CB370E15DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B8B9D2-05CA-4F68-B974-9CB370E15DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B8B9D2-05CA-4F68-B974-9CB370E15DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E30B8083-0D2D-41AB-9134-66649B38B21A} = {C91677CD-DA91-4CC6-BF16-DB5351BA46F8}
+		{7CAD2F76-88F9-431E-BE14-75426DB20773} = {E30B8083-0D2D-41AB-9134-66649B38B21A}
+		{9BA56729-9BD9-4BB1-9B5F-F4238873E0E8} = {E30B8083-0D2D-41AB-9134-66649B38B21A}
+		{282AF6EC-2D7A-41C7-9F83-CD6CEDDC0249} = {4D14294C-C3BF-4BEE-B2EC-C37DB0CB26AA}
+		{7CB24059-A221-4FE6-812E-5D3680F6288A} = {7A2D1AD8-F9E3-4318-B25E-E85AF2754214}
+		{9FE7DF17-1F0A-4F0A-8EC9-8C8427E8A8DB} = {7A2D1AD8-F9E3-4318-B25E-E85AF2754214}
+		{E71E84D3-A92E-4EF5-B991-D82BC16B2CDA} = {7A2D1AD8-F9E3-4318-B25E-E85AF2754214}
+		{1B1655B5-FA90-4A4E-9AD7-5A0FDF0D7B62} = {C91677CD-DA91-4CC6-BF16-DB5351BA46F8}
+		{F6B8B9D2-05CA-4F68-B974-9CB370E15DBF} = {C91677CD-DA91-4CC6-BF16-DB5351BA46F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0614664-B4DC-4A5E-8A2B-2E8B2527A909}
+	EndGlobalSection
+EndGlobal
